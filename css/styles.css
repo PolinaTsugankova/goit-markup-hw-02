@@ -47,7 +47,6 @@ body {
 .nav-link {
    color: var(--first-title-color);
 
-   font-style: normal;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.1;
@@ -167,13 +166,18 @@ body {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.2;
+   letter-spacing: 0.03em;
 }
 
 .member-work {
    color: var(--second-title-color);
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+.teams-member {
+   background-color: var(--main-usual-color);
 }
 
 /* ---------------------FOOTER--------------------- */
@@ -225,6 +229,7 @@ body {
    color: var(--first-title-color);
    background-color: var(--third-bcg-color);
    font-family: inherit;
+   font-style: inherit;
    border: 0mm;
    font-weight: 500;
    font-size: 16px;
